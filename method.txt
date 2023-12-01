@@ -1,0 +1,35 @@
+Display
+~~~~~~~
+m1500 0%mini shows 1 beat on screen
+use 2x scroll sections to make it work for m750
+
+Timing
+~~~~~~
+By setting the chart tempo to 240bpm, each measure is 1 second in length, allowing
+a direct conversion from Frames/Second => Frames/Measure.
+This is helpful for organization of the .ssc file
+
+
+Generating the .ssc
+~~~~~~~~~~~~~~~~~~~
+Each frame is encased in a warp, denoted in ssc header with
+`{beat}=1.000,`
+
+Each frame starts with a scroll speed set
+`{beat}={scroll_multiplier},`
+And ends with a scroll speed reset
+`{beat}=0.000,`
+
+Doubles notation, using one or fraction of one beat for each frame
+
+Example measure with 2 frames:
+
+,
+framedata
+00000000
+framedata
+00000000
+,
+
+Method 1: 8x8 resolution
+~~~~~~~~~~~~~~~~~~~~~~~~

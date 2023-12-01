@@ -1,0 +1,12 @@
+#BGCHANGES:1.000=Bad Apple!!.avi=1.000=1=0=1===CrossFade==,
+99999.000=-nosongbg-=1.000=0=0=0=StretchNoLoop====
+;
+#FGCHANGES:;
+//--------------- dance-double -  ----------------
+#NOTEDATA:;
+#STEPSTYPE:dance-double;
+#DESCRIPTION:;
+#DIFFICULTY:Beginner;
+#METER:1;
+#RADARVALUES:0,0,0,0,0;
+#NOTES:
